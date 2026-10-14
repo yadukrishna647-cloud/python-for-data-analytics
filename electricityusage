@@ -1,0 +1,9 @@
+usage = int(input("Enter the electricity usage in kWh: "))
+if usage <= 100:
+    print("low usage")
+elif usage > 100 and usage <= 299:
+    print("moderate usage ")
+elif usage >= 300 and usage <= 499:
+    print("high usage")
+else:
+    print("very high usage")        

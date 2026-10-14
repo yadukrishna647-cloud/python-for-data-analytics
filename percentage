@@ -1,0 +1,7 @@
+mark = int(input("Enter your mark out of 40: "))
+mark_percentage = mark * 100 / 40
+if mark_percentage > 80:
+    print("very good")
+    print("keep it up")
+mark_percentage = int(mark_percentage)    
+print("your mark percentage is: ", mark_percentage, "%", sep="" )    

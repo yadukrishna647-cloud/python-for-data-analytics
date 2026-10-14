@@ -1,0 +1,8 @@
+maths_mark = int(input("Enter your maths mark: "))
+chemistry_mark = int(input("Enter your chemistry mark: "))
+physics_mark = int(input("Enter your physics mark: "))
+average_mark = (maths_mark + chemistry_mark + physics_mark) / 3
+if average_mark >= 60 and maths_mark >= 60 and chemistry_mark >= 50 and physics_mark >= 50:
+    print("eligible for admission")
+else:
+    print("not eligible for admission")

@@ -1,0 +1,14 @@
+print("enter(F) for converting fahrenheit to celsius")
+print("enter(C) for converting celsius to fahrenheit")
+choice = input("Enter your choice: ").upper().strip()
+while choice != "F" and choice != "C":
+    print("Invalid choice. Please enter F or C.")
+    choice = input("Enter your choice: ").upper().strip()
+if choice == "F":
+    TF = float(input("Enter temperature in Fahrenheit: "))
+    TC= format((TF - 32) * 5 / 9, '.1f')
+    print("Temperature in Celsius:", TC)
+else:
+    TC = float(input("Enter temperature in Celsius: "))
+    TF= format((TC * 9 / 5) + 32, '.1f')
+    print("Temperature in Fahrenheit:", TF)

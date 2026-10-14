@@ -1,0 +1,4 @@
+amount = int(input("enter the purchasse amount:"))
+if amount > 5000:
+    print("eligible for discount")
+    

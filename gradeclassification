@@ -1,0 +1,9 @@
+mark = int(input("Enter your mark out of 100: "))
+if mark < 50:
+    print("failed")
+elif mark >= 50 and mark < 60:
+    print("passed")
+elif mark >= 60 and mark < 79:
+    print("first class")
+else:
+    print("distinction")   
